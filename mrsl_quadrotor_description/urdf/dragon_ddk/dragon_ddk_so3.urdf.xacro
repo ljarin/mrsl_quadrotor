@@ -159,6 +159,11 @@
         <odom_topic>ground_truth/odom</odom_topic>
       </plugin>
 
+      <plugin name="quadrotor_propulsion_trpy" filename="libmrsl_quadrotor_propulsion_trpy.so">
+        <command_topic>trpy_cmd</command_topic>
+        <odom_topic>ground_truth/odom</odom_topic>
+      </plugin>
+
       <!-- Quad Ground Truth Plugin -->
       <plugin name="quadrotor_groundtruth_sim" filename="libgazebo_ros_p3d.so">
         <updateRate>100.0</updateRate>
