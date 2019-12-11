@@ -154,10 +154,12 @@
     <!-- Plugins -->
     <gazebo>
       <!-- Quad Dynamics Plugin -->
+<!--
       <plugin name="quadrotor_propulsion" filename="libmrsl_quadrotor_propulsion.so">
         <command_topic>so3_cmd</command_topic>
         <odom_topic>ground_truth/odom</odom_topic>
       </plugin>
+-->
 
       <plugin name="quadrotor_propulsion_trpy" filename="libmrsl_quadrotor_propulsion_trpy.so">
         <command_topic>trpy_cmd</command_topic>
