@@ -25,3 +25,5 @@ msg_gen
 srv_gen
 ROS_NOBUILD
 *.bag
+
+*.blend1
