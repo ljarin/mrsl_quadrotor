@@ -8,7 +8,7 @@
   <xacro:property name="frame_id" value="camera" />
   <xacro:property name="focal_length" value="320" />
   <xacro:property name="hack_baseline" value="0.08" />
-  <xacro:property name="frame_rate" value="15" />
+  <xacro:property name="frame_rate" value="100" />
 
   <xacro:macro name="stereo_camera" params="name parent *origin">
     <joint name="${name}_joint" type="fixed">
